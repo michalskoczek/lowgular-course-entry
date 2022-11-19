@@ -1,0 +1,22 @@
+.ul-container {
+  list-style: none;
+  padding: 0 30px;
+  box-shadow: 5px 5px 10px #ddd;
+
+  .li-container {
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+
+    span {
+      &:nth-child(1) {
+        flex-basis: 10%;
+      }
+
+      &:nth-child(2), &:nth-child(3)  {
+        flex-basis: 40%;
+      }
+    }
+  }
+}
+
