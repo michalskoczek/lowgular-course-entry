@@ -1,0 +1,7 @@
+<section>
+  <ul *ngIf="data$ | async as data" class="images-container">
+    <li *ngFor="let employee of data" class="image-element">
+      <img src="{{employee.image}}" alt="employee face" class="employee-face">
+    </li>
+  </ul>
+</section>

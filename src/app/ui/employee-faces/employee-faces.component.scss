@@ -1,0 +1,14 @@
+.images-container {
+  display: flex;
+  list-style: none;
+
+  .image-element {
+    margin: 0 15px;
+
+    .employee-face {
+      height: 200px;
+      width: 180px;
+    }
+  }
+}
+
