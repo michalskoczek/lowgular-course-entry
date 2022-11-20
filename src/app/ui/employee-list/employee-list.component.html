@@ -1,0 +1,27 @@
+<h2>Employee List</h2>
+<ng-container *ngIf="employees$ | async as data; else empty">
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Salary [$]</th>
+      </tr>
+    </thead>
+    <tbody>
+  <ng-container *ngFor="let employee of data">
+    <tr>
+      <td>{{employee.id}}</td>
+      <td>{{employee.employee_name}}</td>
+      <td>{{employee.employee_age}}</td>
+      <td>{{employee.employee_salary}} $</td>
+    </tr>
+  </ng-container>
+    </tbody>
+  </table>
+</ng-container>
+
+<ng-template #empty>
+  <p>The database is empty</p>
+</ng-template>
