@@ -1,12 +1,13 @@
-<h2>Employee List</h2>
+<h2 class="title">Employee List</h2>
 <ng-container *ngIf="employees$ | async as data; else empty">
-  <table>
+  <table class="table">
     <thead>
       <tr>
         <th>ID</th>
         <th>Name</th>
         <th>Age</th>
         <th>Salary [$]</th>
+        <th>Action</th>
       </tr>
     </thead>
     <tbody>
@@ -16,6 +17,7 @@
       <td>{{employee.employee_name}}</td>
       <td>{{employee.employee_age}}</td>
       <td>{{employee.employee_salary}} $</td>
+      <button (click)="onDeleteEmployee(employee.id, employee.employee_name)">Delete</button>
     </tr>
   </ng-container>
     </tbody>

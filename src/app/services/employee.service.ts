@@ -1,18 +1,30 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import {map, Observable} from 'rxjs';
-import {ApiResponse} from "./api.response";
-import {EmployeeModel} from "../model/employee.model";
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { EmployeeModel } from '../model/employee.model';
+import { ApiResponse } from './api.response';
+import {EmployeeFormModel} from "../model/employee-form.model";
 
 @Injectable()
 export class EmployeeService {
-  constructor(private _httpClient: HttpClient) {}
+  constructor(private _httpClient: HttpClient) { }
 
-  getAllEmployee(): Observable<EmployeeModel[]> {
+  public getAllEmployee(): Observable<EmployeeModel[]> {
     return this._httpClient.get<ApiResponse<EmployeeModel[]>>(`https://dummy.restapiexample.com/api/v1/employees`).pipe(
       map((response: ApiResponse<EmployeeModel[]>): EmployeeModel[] => {
         return response.data;
       })
     )
   }
+
+  public deleteEmployee(id: string): Observable<void> {
+    return this._httpClient.delete(`https://dummy.restapiexample.com/api/v1/delete/${id}`).pipe(map(_ => void 0));
+  }
+
+  public addEmployee(data: EmployeeFormModel): Observable<void> {
+    return this._httpClient.post<EmployeeFormModel>(`https://dummy.restapiexample.com/api/v1/create`, data).pipe(map(_ => void 0))
+  }
+
+
 }
