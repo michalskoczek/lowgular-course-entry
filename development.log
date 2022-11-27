@@ -22222,3 +22222,2105 @@
 	"message": "[CLI] Called Command rxjs/properties/data/create",
 	"level": "info"
 }
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1112
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "gk-8We8xuy",
+			"correlationId": "XIYHKtPy6s",
+			"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeService"
+		},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAllEmployee()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAllEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAllEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAllEmployee"
+								]
+							}
+						]
+					},
+					{
+						"label": "deleteEmployee()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"deleteEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"deleteEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"deleteEmployee"
+								]
+							}
+						]
+					},
+					{
+						"label": "addEmployee()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"addEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"addEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"addEmployee"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1112
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeService"
+		},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAllEmployee()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAllEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAllEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAllEmployee"
+								]
+							}
+						]
+					},
+					{
+						"label": "deleteEmployee()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"deleteEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"deleteEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"deleteEmployee"
+								]
+							}
+						]
+					},
+					{
+						"label": "addEmployee()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"addEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"addEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"addEmployee"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for rxjs/methods/flow: {
+	"action": "rxjs/methods/flow",
+	"params": {
+		"actionId": "RXJS_METHOD_CREATE",
+		"label": "Create New Method",
+		"callPath": []
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "gk-8We8xuy",
+			"correlationId": "XIYHKtPy6s",
+			"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/methods/flow"
+}
+[info] [CLI] Calling Query rxjs/methods/flow: {
+	"funcParams": {
+		"actionId": "RXJS_METHOD_CREATE",
+		"label": "Create New Method",
+		"callPath": []
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query rxjs/methods/flow"
+}
+[info] [CLI] Called Query rxjs/methods/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "name",
+				"title": "What is the method name?",
+				"subtitle": "e.g getAll",
+				"type": "text-input"
+			},
+			{
+				"contextId": "params",
+				"title": "What are the method parameters?",
+				"subtitle": "Optional: Can be empty... or csv format",
+				"type": "multi-input"
+			},
+			{
+				"contextId": "returnType",
+				"title": "Which return type to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "Observable<EmployeeDetailsParamsModel>"
+					},
+					{
+						"name": "Observable<EmployeeDetailsParamsModel[]>"
+					},
+					{
+						"name": "Observable<EmployeeFormModel>"
+					},
+					{
+						"name": "Observable<EmployeeFormModel[]>"
+					},
+					{
+						"name": "Observable<EmployeeModel>"
+					},
+					{
+						"name": "Observable<EmployeeModel[]>"
+					},
+					{
+						"name": "Observable<ApiResponse>"
+					},
+					{
+						"name": "Observable<ApiResponse[]>"
+					},
+					{
+						"name": "Observable<string>"
+					},
+					{
+						"name": "Observable<string[]>"
+					},
+					{
+						"name": "Observable<number>"
+					},
+					{
+						"name": "Observable<number[]>"
+					},
+					{
+						"name": "Observable<boolean>"
+					},
+					{
+						"name": "Observable<boolean[]>"
+					},
+					{
+						"name": "Observable<void>"
+					},
+					{
+						"name": "Observable<void[]>"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "method-signature/create",
+				"payload": {
+					"name": "name.value",
+					"params": "params",
+					"returnType": "returnType.name"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query rxjs/methods/flow"
+}
+[info] [API] Response ok: rxjs/methods/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "name",
+				"title": "What is the method name?",
+				"subtitle": "e.g getAll",
+				"type": "text-input"
+			},
+			{
+				"contextId": "params",
+				"title": "What are the method parameters?",
+				"subtitle": "Optional: Can be empty... or csv format",
+				"type": "multi-input"
+			},
+			{
+				"contextId": "returnType",
+				"title": "Which return type to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "Observable<EmployeeDetailsParamsModel>"
+					},
+					{
+						"name": "Observable<EmployeeDetailsParamsModel[]>"
+					},
+					{
+						"name": "Observable<EmployeeFormModel>"
+					},
+					{
+						"name": "Observable<EmployeeFormModel[]>"
+					},
+					{
+						"name": "Observable<EmployeeModel>"
+					},
+					{
+						"name": "Observable<EmployeeModel[]>"
+					},
+					{
+						"name": "Observable<ApiResponse>"
+					},
+					{
+						"name": "Observable<ApiResponse[]>"
+					},
+					{
+						"name": "Observable<string>"
+					},
+					{
+						"name": "Observable<string[]>"
+					},
+					{
+						"name": "Observable<number>"
+					},
+					{
+						"name": "Observable<number[]>"
+					},
+					{
+						"name": "Observable<boolean>"
+					},
+					{
+						"name": "Observable<boolean[]>"
+					},
+					{
+						"name": "Observable<void>"
+					},
+					{
+						"name": "Observable<void[]>"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "method-signature/create",
+				"payload": {
+					"name": "name.value",
+					"params": "params",
+					"returnType": "returnType.name"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/methods/flow"
+}
+[info] [API] Request for method-signature/create: {
+	"action": "method-signature/create",
+	"params": {
+		"name": "getObe",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<EmployeeModel>"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "gk-8We8xuy",
+			"correlationId": "XIYHKtPy6s",
+			"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for method-signature/create"
+}
+[info] [CommandBus]: Dispatching command ADD_READ_METHOD_SIGNATURE: {
+	"commandName": "ADD_READ_METHOD_SIGNATURE",
+	"payload": {
+		"entityFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "getObe",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<EmployeeModel>"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ADD_READ_METHOD_SIGNATURE"
+}
+[info] [CLI] Calling Command method-signature/create: {
+	"funcParams": {
+		"name": "getObe",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<EmployeeModel>"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command method-signature/create"
+}
+[info] [CommandBus]: Handled  ADD_READ_METHOD_SIGNATURE: {
+	"commandName": "ADD_READ_METHOD_SIGNATURE",
+	"payload": {
+		"entityFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+		"name": "getObe",
+		"params": {
+			"id": "string"
+		},
+		"returnType": "Observable<EmployeeModel>"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ADD_READ_METHOD_SIGNATURE"
+}
+[info] [CLI] Called Command method-signature/create: {
+	"message": "[CLI] Called Command method-signature/create",
+	"level": "info"
+}
+[info] [API] Response ok: method-signature/create: {
+	"result": {
+		"filePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: method-signature/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1168
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "gk-8We8xuy",
+			"correlationId": "qS_-j2H9Ho",
+			"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeService"
+		},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAllEmployee()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAllEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAllEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAllEmployee"
+								]
+							}
+						]
+					},
+					{
+						"label": "deleteEmployee()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"deleteEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"deleteEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"deleteEmployee"
+								]
+							}
+						]
+					},
+					{
+						"label": "addEmployee()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"addEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"addEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"addEmployee"
+								]
+							}
+						]
+					},
+					{
+						"label": "getObe()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"getObe"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+		"position": 1168
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeService"
+		},
+		"children": [
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"label": "getAllEmployee()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"getAllEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"getAllEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"getAllEmployee"
+								]
+							}
+						]
+					},
+					{
+						"label": "deleteEmployee()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"deleteEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"deleteEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"deleteEmployee"
+								]
+							}
+						]
+					},
+					{
+						"label": "addEmployee()",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Statement",
+								"callPath": [
+									"addEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP_TO",
+								"label": "Map To",
+								"callPath": [
+									"addEmployee"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Statement Side Effect",
+								"callPath": [
+									"addEmployee"
+								]
+							}
+						]
+					},
+					{
+						"label": "getObe()",
+						"children": [
+							{
+								"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+								"label": "Create Statement",
+								"callPath": [
+									"getObe"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "RXJS_METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for rxjs/methods/statement/flow: {
+	"action": "rxjs/methods/statement/flow",
+	"params": {
+		"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+		"label": "Create Statement",
+		"callPath": [
+			"getObe"
+		]
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "gk-8We8xuy",
+			"correlationId": "qS_-j2H9Ho",
+			"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/methods/statement/flow"
+}
+[info] [CLI] Calling Query rxjs/methods/statement/flow: {
+	"funcParams": {
+		"actionId": "RXJS_METHOD_STATEMENT_CREATE",
+		"label": "Create Statement",
+		"callPath": [
+			"getObe"
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query rxjs/methods/statement/flow"
+}
+[info] [CLI] Called Query rxjs/methods/statement/flow: {
+	"result": {
+		"context": {
+			"callPath": {
+				"value": [
+					"getObe"
+				]
+			}
+		},
+		"steps": [
+			{
+				"contextId": "dependency",
+				"title": "Which dependency to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "EmployeeService",
+						"path": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts"
+					},
+					{
+						"name": "HttpClient",
+						"path": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			},
+			{
+				"contextId": "observable",
+				"title": "Which observable to use?",
+				"type": "multi-option",
+				"options": {
+					"EmployeeService": [
+						{
+							"name": "getAllEmployee()",
+							"callPath": [
+								"getAllEmployee"
+							]
+						},
+						{
+							"name": "deleteEmployee()",
+							"callPath": [
+								"deleteEmployee"
+							]
+						},
+						{
+							"name": "addEmployee()",
+							"callPath": [
+								"addEmployee"
+							]
+						},
+						{
+							"name": "getObe()",
+							"callPath": [
+								"getObe"
+							]
+						}
+					],
+					"HttpClient": [
+						{
+							"name": "request()",
+							"callPath": [
+								"request"
+							]
+						},
+						{
+							"name": "delete()",
+							"callPath": [
+								"delete"
+							]
+						},
+						{
+							"name": "get()",
+							"callPath": [
+								"get"
+							]
+						},
+						{
+							"name": "head()",
+							"callPath": [
+								"head"
+							]
+						},
+						{
+							"name": "jsonp()",
+							"callPath": [
+								"jsonp"
+							]
+						},
+						{
+							"name": "options()",
+							"callPath": [
+								"options"
+							]
+						},
+						{
+							"name": "patch()",
+							"callPath": [
+								"patch"
+							]
+						},
+						{
+							"name": "post()",
+							"callPath": [
+								"post"
+							]
+						},
+						{
+							"name": "put()",
+							"callPath": [
+								"put"
+							]
+						}
+					]
+				},
+				"extraOptions": [],
+				"param": "dependency.name",
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "rxjs/methods/statement/create",
+				"payload": {
+					"callPath": "callPath.value",
+					"dependencyCallPath": "observable.callPath",
+					"dependencyType": "dependency.name",
+					"dependencyPath": "dependency.path"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query rxjs/methods/statement/flow"
+}
+[info] [API] Response ok: rxjs/methods/statement/flow: {
+	"result": {
+		"context": {
+			"callPath": {
+				"value": [
+					"getObe"
+				]
+			}
+		},
+		"steps": [
+			{
+				"contextId": "dependency",
+				"title": "Which dependency to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "EmployeeService",
+						"path": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts"
+					},
+					{
+						"name": "HttpClient",
+						"path": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			},
+			{
+				"contextId": "observable",
+				"title": "Which observable to use?",
+				"type": "multi-option",
+				"options": {
+					"EmployeeService": [
+						{
+							"name": "getAllEmployee()",
+							"callPath": [
+								"getAllEmployee"
+							]
+						},
+						{
+							"name": "deleteEmployee()",
+							"callPath": [
+								"deleteEmployee"
+							]
+						},
+						{
+							"name": "addEmployee()",
+							"callPath": [
+								"addEmployee"
+							]
+						},
+						{
+							"name": "getObe()",
+							"callPath": [
+								"getObe"
+							]
+						}
+					],
+					"HttpClient": [
+						{
+							"name": "request()",
+							"callPath": [
+								"request"
+							]
+						},
+						{
+							"name": "delete()",
+							"callPath": [
+								"delete"
+							]
+						},
+						{
+							"name": "get()",
+							"callPath": [
+								"get"
+							]
+						},
+						{
+							"name": "head()",
+							"callPath": [
+								"head"
+							]
+						},
+						{
+							"name": "jsonp()",
+							"callPath": [
+								"jsonp"
+							]
+						},
+						{
+							"name": "options()",
+							"callPath": [
+								"options"
+							]
+						},
+						{
+							"name": "patch()",
+							"callPath": [
+								"patch"
+							]
+						},
+						{
+							"name": "post()",
+							"callPath": [
+								"post"
+							]
+						},
+						{
+							"name": "put()",
+							"callPath": [
+								"put"
+							]
+						}
+					]
+				},
+				"extraOptions": [],
+				"param": "dependency.name",
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "rxjs/methods/statement/create",
+				"payload": {
+					"callPath": "callPath.value",
+					"dependencyCallPath": "observable.callPath",
+					"dependencyType": "dependency.name",
+					"dependencyPath": "dependency.path"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/methods/statement/flow"
+}
+[info] [API] Request for rxjs/methods/statement/create: {
+	"action": "rxjs/methods/statement/create",
+	"params": {
+		"callPath": [
+			"getObe"
+		],
+		"dependencyCallPath": [
+			"get"
+		],
+		"dependencyType": "HttpClient",
+		"dependencyPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "gk-8We8xuy",
+			"correlationId": "qS_-j2H9Ho",
+			"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/methods/statement/create"
+}
+[info] [CLI] Calling Command rxjs/methods/statement/create: {
+	"funcParams": {
+		"callPath": [
+			"getObe"
+		],
+		"dependencyCallPath": [
+			"get"
+		],
+		"dependencyType": "HttpClient",
+		"dependencyPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command rxjs/methods/statement/create"
+}
+[info] [CommandBus]: Dispatching command AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"entityFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+		"callPath": [
+			"getObe"
+		],
+		"dependencyFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"dependencyCallPath": [
+			"get"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command AddCallCommand"
+}
+[info] [CommandBus]: Handled  AddCallCommand: {
+	"commandName": "AddCallCommand",
+	"payload": {
+		"entityFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+		"callPath": [
+			"getObe"
+		],
+		"dependencyFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts",
+		"dependencyType": "HttpClient",
+		"dependencyCallPath": [
+			"get"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  AddCallCommand"
+}
+[info] [CLI] Called Command rxjs/methods/statement/create: {
+	"message": "[CLI] Called Command rxjs/methods/statement/create",
+	"level": "info"
+}
+[info] [API] Response ok: rxjs/methods/statement/create: {
+	"result": {
+		"filePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/methods/statement/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+		"position": 692
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "gk-8We8xuy",
+			"correlationId": "XeDkPLPPbk",
+			"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeDetailsComponent",
+			"parentProperty": "params$"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "params$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"params$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"params$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+		"position": 692
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeDetailsComponent",
+			"parentProperty": "params$"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "params$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"params$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"params$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "gk-8We8xuy",
+			"correlationId": "XeDkPLPPbk",
+			"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "ANGULAR_SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+			"name": "EmployeeService",
+			"type": "ANGULAR_SERVICE",
+			"dataType": "Internal"
+		},
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+		"injectingPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "gk-8We8xuy",
+			"correlationId": "XeDkPLPPbk",
+			"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+		"injectingPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+		"injectingFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY: {
+	"commandName": "INJECT_SERVICE_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+		"injectingFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_SERVICE_DEPENDENCY"
+}
+[info] [CLI] Called Command injectable/inject: {
+	"message": "[CLI] Called Command injectable/inject",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject: {
+	"result": {
+		"filePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+		"position": 769
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "gk-8We8xuy",
+			"correlationId": "xfpqIzLdzg",
+			"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeDetailsComponent",
+			"parentProperty": "params$"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "params$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"params$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"params$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+		"position": 769
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeDetailsComponent",
+			"parentProperty": "params$"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "params$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"params$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"params$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for rxjs/properties/data/flow: {
+	"action": "rxjs/properties/data/flow",
+	"params": {
+		"actionId": "RXJS_PROPERTY_CREATE",
+		"label": "Create Data Property",
+		"callPath": []
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "gk-8We8xuy",
+			"correlationId": "xfpqIzLdzg",
+			"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/properties/data/flow"
+}
+[info] [CLI] Calling Query rxjs/properties/data/flow: {
+	"funcParams": {
+		"actionId": "RXJS_PROPERTY_CREATE",
+		"label": "Create Data Property",
+		"callPath": []
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query rxjs/properties/data/flow"
+}
+[info] [CLI] Called Query rxjs/properties/data/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "name",
+				"title": "What is the property name?",
+				"subtitle": "in camelCase (e.g. data, dataSource)",
+				"type": "text-input"
+			},
+			{
+				"contextId": "entity",
+				"title": "Which dependency to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "EmployeeDetailsComponent",
+						"path": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts"
+					},
+					{
+						"name": "EmployeeService",
+						"path": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts"
+					},
+					{
+						"name": "HttpClient",
+						"path": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+					},
+					{
+						"name": "ActivatedRoute",
+						"path": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/node_modules/@angular/router/router.d.ts"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			},
+			{
+				"contextId": "observable",
+				"title": "Which observable to use?",
+				"type": "multi-option",
+				"options": {
+					"EmployeeDetailsComponent": [
+						{
+							"name": "params$",
+							"callPath": [
+								"params$"
+							]
+						}
+					],
+					"EmployeeService": [
+						{
+							"name": "getAllEmployee()",
+							"callPath": [
+								"getAllEmployee"
+							]
+						},
+						{
+							"name": "deleteEmployee()",
+							"callPath": [
+								"deleteEmployee"
+							]
+						},
+						{
+							"name": "addEmployee()",
+							"callPath": [
+								"addEmployee"
+							]
+						},
+						{
+							"name": "getOne()",
+							"callPath": [
+								"getOne"
+							]
+						}
+					],
+					"HttpClient": [
+						{
+							"name": "request()",
+							"callPath": [
+								"request"
+							]
+						},
+						{
+							"name": "delete()",
+							"callPath": [
+								"delete"
+							]
+						},
+						{
+							"name": "get()",
+							"callPath": [
+								"get"
+							]
+						},
+						{
+							"name": "head()",
+							"callPath": [
+								"head"
+							]
+						},
+						{
+							"name": "jsonp()",
+							"callPath": [
+								"jsonp"
+							]
+						},
+						{
+							"name": "options()",
+							"callPath": [
+								"options"
+							]
+						},
+						{
+							"name": "patch()",
+							"callPath": [
+								"patch"
+							]
+						},
+						{
+							"name": "post()",
+							"callPath": [
+								"post"
+							]
+						},
+						{
+							"name": "put()",
+							"callPath": [
+								"put"
+							]
+						}
+					],
+					"ActivatedRoute": [
+						{
+							"name": "url",
+							"callPath": [
+								"url"
+							]
+						},
+						{
+							"name": "params",
+							"callPath": [
+								"params"
+							]
+						},
+						{
+							"name": "queryParams",
+							"callPath": [
+								"queryParams"
+							]
+						},
+						{
+							"name": "fragment",
+							"callPath": [
+								"fragment"
+							]
+						},
+						{
+							"name": "data",
+							"callPath": [
+								"data"
+							]
+						}
+					]
+				},
+				"extraOptions": [],
+				"param": "entity.name",
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "rxjs/properties/data/create",
+				"payload": {
+					"propertyName": "name.value",
+					"dependencyCallPath": "observable.callPath",
+					"dependencyName": "entity.name",
+					"dependencyPath": "entity.path"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query rxjs/properties/data/flow"
+}
+[info] [API] Response ok: rxjs/properties/data/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "name",
+				"title": "What is the property name?",
+				"subtitle": "in camelCase (e.g. data, dataSource)",
+				"type": "text-input"
+			},
+			{
+				"contextId": "entity",
+				"title": "Which dependency to use?",
+				"type": "multi-option",
+				"options": [
+					{
+						"name": "EmployeeDetailsComponent",
+						"path": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts"
+					},
+					{
+						"name": "EmployeeService",
+						"path": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts"
+					},
+					{
+						"name": "HttpClient",
+						"path": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/node_modules/@angular/common/http/http.d.ts"
+					},
+					{
+						"name": "ActivatedRoute",
+						"path": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/node_modules/@angular/router/router.d.ts"
+					}
+				],
+				"extraOptions": [],
+				"property": "name"
+			},
+			{
+				"contextId": "observable",
+				"title": "Which observable to use?",
+				"type": "multi-option",
+				"options": {
+					"EmployeeDetailsComponent": [
+						{
+							"name": "params$",
+							"callPath": [
+								"params$"
+							]
+						}
+					],
+					"EmployeeService": [
+						{
+							"name": "getAllEmployee()",
+							"callPath": [
+								"getAllEmployee"
+							]
+						},
+						{
+							"name": "deleteEmployee()",
+							"callPath": [
+								"deleteEmployee"
+							]
+						},
+						{
+							"name": "addEmployee()",
+							"callPath": [
+								"addEmployee"
+							]
+						},
+						{
+							"name": "getOne()",
+							"callPath": [
+								"getOne"
+							]
+						}
+					],
+					"HttpClient": [
+						{
+							"name": "request()",
+							"callPath": [
+								"request"
+							]
+						},
+						{
+							"name": "delete()",
+							"callPath": [
+								"delete"
+							]
+						},
+						{
+							"name": "get()",
+							"callPath": [
+								"get"
+							]
+						},
+						{
+							"name": "head()",
+							"callPath": [
+								"head"
+							]
+						},
+						{
+							"name": "jsonp()",
+							"callPath": [
+								"jsonp"
+							]
+						},
+						{
+							"name": "options()",
+							"callPath": [
+								"options"
+							]
+						},
+						{
+							"name": "patch()",
+							"callPath": [
+								"patch"
+							]
+						},
+						{
+							"name": "post()",
+							"callPath": [
+								"post"
+							]
+						},
+						{
+							"name": "put()",
+							"callPath": [
+								"put"
+							]
+						}
+					],
+					"ActivatedRoute": [
+						{
+							"name": "url",
+							"callPath": [
+								"url"
+							]
+						},
+						{
+							"name": "params",
+							"callPath": [
+								"params"
+							]
+						},
+						{
+							"name": "queryParams",
+							"callPath": [
+								"queryParams"
+							]
+						},
+						{
+							"name": "fragment",
+							"callPath": [
+								"fragment"
+							]
+						},
+						{
+							"name": "data",
+							"callPath": [
+								"data"
+							]
+						}
+					]
+				},
+				"extraOptions": [],
+				"param": "entity.name",
+				"property": "name"
+			}
+		],
+		"request": {
+			"config": {
+				"url": "rxjs/properties/data/create",
+				"payload": {
+					"propertyName": "name.value",
+					"dependencyCallPath": "observable.callPath",
+					"dependencyName": "entity.name",
+					"dependencyPath": "entity.path"
+				}
+			}
+		}
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/properties/data/flow"
+}
+[info] [API] Request for rxjs/properties/data/create: {
+	"action": "rxjs/properties/data/create",
+	"params": {
+		"propertyName": "details",
+		"dependencyCallPath": [
+			"getOne"
+		],
+		"dependencyName": "EmployeeService",
+		"dependencyPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "gk-8We8xuy",
+			"correlationId": "xfpqIzLdzg",
+			"clickedPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for rxjs/properties/data/create"
+}
+[info] [API] Response ok: rxjs/properties/data/create: {
+	"result": {
+		"filePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: rxjs/properties/data/create"
+}
+[info] [CLI] Calling Command rxjs/properties/data/create: {
+	"funcParams": {
+		"propertyName": "details",
+		"dependencyCallPath": [
+			"getOne"
+		],
+		"dependencyName": "EmployeeService",
+		"dependencyPath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command rxjs/properties/data/create"
+}
+[info] [CommandBus]: Dispatching command CreateDataPropertyCommand: {
+	"commandName": "CreateDataPropertyCommand",
+	"payload": {
+		"entityFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+		"entityPropertyName": "details",
+		"dependencyFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+		"dependencyName": "EmployeeService",
+		"dependencyCallPath": [
+			"getOne"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CreateDataPropertyCommand"
+}
+[info] [CLI] Called Command rxjs/properties/data/create: {
+	"message": "[CLI] Called Command rxjs/properties/data/create",
+	"level": "info"
+}
+[info] [CommandBus]: Handled  CreateDataPropertyCommand: {
+	"commandName": "CreateDataPropertyCommand",
+	"payload": {
+		"entityFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/ui/employee-details/employee-details.component.ts",
+		"entityPropertyName": "details",
+		"dependencyFilePath": "C:/Users/Michał/Documents/Lowgular-course/lowgular-course-entry/src/app/services/employee.service.ts",
+		"dependencyName": "EmployeeService",
+		"dependencyCallPath": [
+			"getOne"
+		]
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CreateDataPropertyCommand"
+}
