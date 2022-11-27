@@ -1,38 +1,5 @@
-.title {
-  line-height: 1.5;
+h2 {
+  margin: 0 0 25px 0;
+  padding-bottom: 10px;
   border-bottom: 1px solid #73d4f6;
-}
-
-.table {
-  width: 100%;
-  text-align: center;
-  border-collapse: collapse;
-
-  thead {
-    background: #1C6EA4;
-  }
-
-  thead th {
-    font-size: 20px;
-    color: #FFFFFF;
-    text-align: center;
-  }
-
-  td, th {
-    padding: 10px 5px;
-  }
-
-  tr:nth-child(even) {
-    background: #D0E4F5;
-  }
-
-  button {
-    background-color: #73d4f6;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    margin: 6px;
-    color: #fff;
-    cursor: pointer;
-  }
 }

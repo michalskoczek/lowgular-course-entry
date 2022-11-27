@@ -1,11 +1,20 @@
-<header>
-  <h1>Dashboard Employees</h1>
-</header>
-<div class="container">
-  <section class="left">
-    <app-employee-list></app-employee-list>
-  </section>
-  <section class="right">
-    <app-employee-form></app-employee-form>
-  </section>
+<div class="container-fluid">
+  <div class="row header p-2 mb-4">
+    <div class="col-12 d-flex justify-content-center">
+      <header>
+        <h1>Dashboard Employees</h1>
+      </header>
+    </div>
+  </div>
 </div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <app-employee-list></app-employee-list>
+    </div>
+    <div class="col-12 col-md-6">
+      <app-employee-form></app-employee-form>
+    </div>
+  </div>
+</div>
+

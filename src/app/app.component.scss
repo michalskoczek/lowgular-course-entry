@@ -1,24 +1,4 @@
-* {
-  font-family: 'Arial', sans-serif;
-}
-
-.container{
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-  width: 100%;
+.header {
   background-color: #487b8f;
-
-  .left, .right {
-    flex-basis: 40%;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px 0 #333;
-    background-color: #fff;
-  }
-
-  .right {
-    max-height: 350px;
-  }
+  color: #FFFFFF;
 }
