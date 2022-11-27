@@ -1,12 +1,23 @@
-<div class="container-fluid">
-  <div class="row header p-2 mb-4">
-    <div class="col-12 d-flex justify-content-center">
-      <header>
-        <h1>Dashboard Employees</h1>
-      </header>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+  <span class="navbar-brand">Employee App</span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="employee-list">List</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="create-employee">Create employee</a>
+      </li>
+    </ul>
   </div>
-</div>
+</nav>
+
 <div class="container">
   <div class="row">
     <div class="col-12">
@@ -14,4 +25,22 @@
     </div>
   </div>
 </div>
+
+<div class="fixed-bottom">
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="d-flex justify-content-around">
+      <span>Employee App</span>
+      <a href="https://github.com/michalskoczek">My Github</a>
+      <span class="text-muted">2022</span>
+    </div>
+  </footer>
+</div>
+
+
+
+
+
+
+
+
 
