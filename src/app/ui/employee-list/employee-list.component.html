@@ -21,7 +21,7 @@
         <ng-container *ngFor="let employee of data">
           <tr>
             <td>{{employee.id}}</td>
-            <td>{{employee.employee_name}}</td>
+            <td><a routerLink="/employee-details/{{employee.id}}/{{employee.employee_name}}">{{employee.employee_name}}</a></td>
             <td>{{employee.employee_age}}</td>
             <td>{{employee.employee_salary}} $</td>
             <td>
